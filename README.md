@@ -1,21 +1,16 @@
 # Projet_IA
-Projet de jeux vidéo controlé à travers la computer vision
 
-This repository contains simple Python games and AI/Computer Vision demos designed to inspire students and beginners.
-Whether you want to build your own games, experiment with object tracking, or explore AI-powered interactive projects, this repo is a great starting point.
+Ce répositoire contient un jeu de tir type "Space Invaders" controler par les mouvements du joueurs à l'aide de la computer vision.
+Le jeu est codé principalement avec les bibliothèques numpy et pygame, et la vision de l'ordinateur est gérée par mediapipe et cv2, qui capturant les mouvement des mains pour les associer aux mouvements du joueur. 
 
-What’s Inside
-Classic games using Pygame (e.g., Pong)
-Computer Vision demos using OpenCV:
-Color/object tracking
-Interactive webcam-based projects
-Modular code examples to help you learn, tweak, and extend
-Why This Repo
-Learn Python programming through fun projects
-Explore AI and vision-based interactions
-Use as a starting point for your own games or AI projects
-How to Get Started
-Clone the repository:
-git clone <https://github.com/younes-code/CodePlayground.git>
+Composition:
+- Initialisation des constantes, variables;
+- fonctions du jeu et du motion capture
+- boucle active du jeu 
 
-Composition 
+Problèmes rencontrés:
+- mediapipe n'est compatible qu'avec Python 3.10
+- associer le mouvement spécifique des main aux actions
+
+
+
